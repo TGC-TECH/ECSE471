@@ -859,6 +859,290 @@
 				)
 			)
 		)
+		(symbol "dk_Transistors-Bipolar-BJT-Single:2N4401-AP"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2N4401-AP"
+				(at -11.43 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TRANS NPN 40V TO92"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2N4401-AP"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Discrete Semiconductor Products"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Transistors - Bipolar (BJT) - Single"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TRANS NPN 40V TO92"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Micro Commercial Co"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2N4401-APCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N4401-AP_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 2.032 -2.286) (xy 1.016 -2.54) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5814)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "2N4401-AP_1_1"
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 7.62 270)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1197,26 +1481,32 @@
 		)
 	)
 	(junction
-		(at 128.27 36.83)
+		(at 143.51 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0796b60d-a52a-403e-8e34-01397432ddf2")
+	)
+	(junction
+		(at 152.4 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5386e53a-e851-4aa2-a76d-8c42d8989a52")
 	)
 	(junction
-		(at 106.68 36.83)
+		(at 130.81 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7162063a-6838-43d6-88c9-c3456b84267d")
 	)
 	(junction
-		(at 144.78 36.83)
+		(at 168.91 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c46878a3-4b2c-4229-90da-53243d4fb267")
 	)
 	(wire
 		(pts
-			(xy 144.78 39.37) (xy 144.78 36.83)
+			(xy 168.91 91.44) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 44.45) (xy 119.38 57.15)
+			(xy 143.51 96.52) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 36.83) (xy 106.68 36.83)
+			(xy 138.43 88.9) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 49.53) (xy 144.78 46.99)
+			(xy 168.91 101.6) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 154.94 36.83)
+			(xy 168.91 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 36.83) (xy 132.08 36.83)
+			(xy 152.4 88.9) (xy 156.21 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1566,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 27.94) (xy 154.94 36.83)
+			(xy 132.08 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58168de8-a91e-4bd7-9cae-a37cfac2c3f3")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 106.68 57.15)
+			(xy 143.51 109.22) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 44.45) (xy 128.27 49.53)
+			(xy 152.4 96.52) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 50.8)
+			(xy 130.81 109.22) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 106.68 36.83)
+			(xy 130.81 95.25) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1626,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 139.7 36.83)
+			(xy 95.25 116.84) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a042c1fe-835b-424a-b73b-e41f17bd4c74")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 163.83 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 106.68 36.83)
+			(xy 130.81 80.01) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +1656,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 36.83) (xy 128.27 36.83)
+			(xy 143.51 124.46) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2e1d2e-0813-4e07-8521-6bfe6ec7c319")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1354,9 +1674,20 @@
 		)
 		(uuid "ed1ff713-3b5c-448b-866a-f9dd856e67fe")
 	)
+	(label "PWM"
+		(at 95.25 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52726226-f6b4-4edb-a27e-274f8bb9fc1a")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 49.53 0)
+		(at 168.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1365,7 +1696,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fb03061-0019-4181-a37d-0d4db3e31c8e")
 		(property "Reference" "#PWR05"
-			(at 144.78 55.88 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 54.61 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 49.53 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 49.53 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 49.53 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1753,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 106.68 27.94 0)
+		(at 130.81 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1431,7 +1762,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f47c1a7-e029-4d92-ab81-1a15e0eea546")
 		(property "Reference" "#PWR06"
-			(at 106.68 31.75 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1771,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 106.68 22.86 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 27.94 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 27.94 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 106.68 27.94 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,17 +1818,173 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 49.53 0)
+		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4401-AP")
+		(at 140.97 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b9eabdf-0ea5-4368-89bc-7c0f420468cc")
-		(property "Reference" "#PWR04"
-			(at 128.27 55.88 0)
+		(uuid "4708b439-3717-4b6a-b22f-da334240dae0")
+		(property "Reference" "Q2"
+			(at 146.05 115.5699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N4401-AP"
+			(at 146.05 118.1099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN 40V TO92"
+			(at 146.05 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N4401-AP"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Discrete Semiconductor Products"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Transistors - Bipolar (BJT) - Single"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TRANS NPN 40V TO92"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "16bb8bef-bab4-4480-a0cd-1cab2b88049a")
+		)
+		(pin "2"
+			(uuid "768cba3b-6f57-434e-af6f-9cca099376b1")
+		)
+		(pin "1"
+			(uuid "abb812d4-cf1a-46c3-bb7e-20ca348f2660")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55047dd5-1b61-4850-9e41-c1443cabaaa3")
+		(property "Reference" "#PWR09"
+			(at 143.51 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1993,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 54.61 0)
+			(at 143.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +2001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 49.53 0)
+			(at 143.51 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +2010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 49.53 0)
+			(at 143.51 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +2019,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 49.53 0)
+			(at 143.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c8e2fed-17a4-40ea-8534-39ca63c04dd1")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9eabdf-0ea5-4368-89bc-7c0f420468cc")
+		(property "Reference" "#PWR04"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +2107,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 135.89 36.83 90)
+		(at 160.02 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1563,7 +2116,7 @@
 		(fields_autoplaced yes)
 		(uuid "8231438e-54b6-4796-9b26-4e6d399d7ef8")
 		(property "Reference" "L1"
-			(at 135.89 31.75 90)
+			(at 160.02 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +2124,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 135.89 34.29 90)
+			(at 160.02 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +2132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 36.83 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +2141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 36.83 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +2150,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 135.89 36.83 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,35 +2174,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 128.27 40.64 270)
+		(lib_id "Device:R")
+		(at 111.76 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1032ae1-7385-4ef8-a3f4-01a4e98c1c0a")
-		(property "Reference" "D1"
-			(at 130.81 39.0524 90)
+		(uuid "971dc799-612a-4696-847d-f6c80dadb9f9")
+		(property "Reference" "R2"
+			(at 111.76 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 130.81 41.5924 90)
+		(property "Value" "4.8k"
+			(at 111.76 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 40.64 0)
+			(at 111.76 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2209,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 40.64 0)
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66af930-7afb-42c1-97e7-92fdc185e936")
+		)
+		(pin "2"
+			(uuid "d74e22e7-bacf-40aa-8625-e59528a638c4")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 152.4 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1032ae1-7385-4ef8-a3f4-01a4e98c1c0a")
+		(property "Reference" "D1"
+			(at 154.94 91.1224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 154.94 93.6624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +2288,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 128.27 40.64 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 46.99 0)
+		(at 130.81 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1701,7 +2322,7 @@
 		(fields_autoplaced yes)
 		(uuid "b24b8acc-e865-4d84-ab7e-7773acea4869")
 		(property "Reference" "R1"
-			(at 109.22 45.7199 0)
+			(at 133.35 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +2331,7 @@
 			)
 		)
 		(property "Value" "4.8k"
-			(at 109.22 48.2599 0)
+			(at 133.35 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 46.99 90)
+			(at 129.032 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +2349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 46.99 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +2358,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 46.99 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2383,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 119.38 39.37 270)
+		(at 143.51 91.44 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1771,7 +2392,7 @@
 		(dnp no)
 		(uuid "b6322c5c-4b29-4fa3-857d-8e60fbe9b950")
 		(property "Reference" "Q1"
-			(at 119.38 30.48 90)
+			(at 143.51 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +2400,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 119.38 33.02 90)
+			(at 143.51 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 117.475 34.29 0)
+			(at 141.605 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 115.57 34.29 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +2429,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 119.38 39.37 0)
+			(at 143.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +2457,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 43.18 0)
+		(at 168.91 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1845,7 +2466,7 @@
 		(fields_autoplaced yes)
 		(uuid "d69b97af-0952-48af-9bc2-811427034aab")
 		(property "Reference" "C1"
-			(at 148.59 41.9099 0)
+			(at 172.72 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,8 +2474,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 148.59 44.4499 0)
+		(property "Value" "100u"
+			(at 172.72 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.7452 46.99 0)
+			(at 169.8752 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +2493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 43.18 0)
+			(at 168.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2502,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 43.18 0)
+			(at 168.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +2527,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 154.94 27.94 0)
+		(at 179.07 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1915,7 +2536,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5d1341f-b105-4706-9fc0-f63d087f626f")
 		(property "Reference" "#PWR07"
-			(at 154.94 31.75 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2545,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 154.94 22.86 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 27.94 0)
+			(at 179.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 27.94 0)
+			(at 179.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 154.94 27.94 0)
+			(at 179.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
