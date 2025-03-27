@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4aaa0ca4-f154-48d3-9c7d-eac12ebc3312")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 163.83 69.85)
+		(size 34.29 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb7efb6d-2be0-4ef9-8840-a07e85f74c7e")
+		(property "Sheetname" "PartV"
+			(at 163.83 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PartV.kicad_sch"
+			(at 163.83 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lab9"
+				(path "/4aaa0ca4-f154-48d3-9c7d-eac12ebc3312"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 71.12)
+		(size 35.56 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c482a5f8-1d86-4a96-b4c9-c2084400671c")
+		(property "Sheetname" "PartIII"
+			(at 118.11 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PartIII.kicad_sch"
+			(at 118.11 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lab9"
+				(path "/4aaa0ca4-f154-48d3-9c7d-eac12ebc3312"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 71.12)
+		(size 35.56 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc57ec4d-9455-477b-be3d-9fd82a13fd8b")
+		(property "Sheetname" "PartII"
+			(at 76.2 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PartII.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lab9"
+				(path "/4aaa0ca4-f154-48d3-9c7d-eac12ebc3312"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
