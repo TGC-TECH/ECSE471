@@ -859,6 +859,453 @@
 				)
 			)
 		)
+		(symbol "dk_PMIC-Motor-Drivers-Controllers:L293D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "L293D"
+				(at 7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "digikey-footprints:DIP-16_W7.62mm"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC MTRDRV BIPLR 4.5-36V 16PWRDIP"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "L293D"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Integrated Circuits (ICs)"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "PMIC - Motor Drivers, Controllers"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/L293D/497-2936-5-ND/634700"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "IC MTRDRV BIPLR 4.5-36V 16PWRDIP"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "497-2936-5-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L293D_0_1"
+				(rectangle
+					(start -5.08 10.16)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L293D_1_1"
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "dk_Transistors-Bipolar-BJT-Single:2N4401-AP"
 			(pin_names
 				(offset 0)
@@ -1126,6 +1573,290 @@
 				(pin input line
 					(at 2.54 7.62 270)
 					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "dk_Transistors-Bipolar-BJT-Single:2N4403-AP"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.3876 3.9116 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2N4403-AP"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TRANS PNP 40V TO92"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2N4403-AP"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Discrete Semiconductor Products"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Transistors - Bipolar (BJT) - Single"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4403-AP/2N4403-APCT-ND/950594"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TRANS PNP 40V TO92"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Micro Commercial Co"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2N4403-APCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N4403-AP_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 0.508 1.524) (xy 1.524 1.27) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.9972)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "2N4403-AP_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
 					(name "C"
 						(effects
 							(font
@@ -1601,10 +2332,10 @@
 		)
 	)
 	(junction
-		(at 143.51 109.22)
+		(at 137.16 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0796b60d-a52a-403e-8e34-01397432ddf2")
+		(uuid "2e05c8db-dbdc-4ea0-8443-7a77341d2c5b")
 	)
 	(junction
 		(at 152.4 88.9)
@@ -1619,14 +2350,44 @@
 		(uuid "7162063a-6838-43d6-88c9-c3456b84267d")
 	)
 	(junction
+		(at 137.16 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8281d36d-ffcb-4895-ae8a-2eb730791195")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3379fe-7cd6-4ebb-ba7e-8309f9de3c1a")
+	)
+	(junction
 		(at 168.91 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f7b14dc-2e43-4ecf-8eec-9211cc410263")
 	)
+	(junction
+		(at 137.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5dcd8cd-3ad7-402a-a454-f7503eb2bfb4")
+	)
+	(junction
+		(at 125.73 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8bdadc5-c6d5-4819-ae31-1d6f03558d47")
+	)
+	(junction
+		(at 125.73 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc18c85c-304c-4223-a93e-3872197a41e7")
+	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 173.99 130.81)
+			(xy 137.16 130.81) (xy 173.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1646,17 +2407,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 143.51 109.22)
+			(xy 129.54 101.6) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22f4afac-a528-40b4-8df5-c4244422abed")
+		(uuid "2b405a55-ce1a-429a-8b04-8cb07420d3eb")
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 130.81 88.9)
+			(xy 144.78 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320020a7-2f2d-4339-ae68-1f999bff3758")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 137.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1673,6 +2444,26 @@
 			(type default)
 		)
 		(uuid "4938a1f1-e3c3-4eb2-a402-36705af71c6e")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc419df-6968-46fb-a0d9-66d7904ce40e")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d7eb32-5477-4fda-a717-bdde69d0bfd6")
 	)
 	(wire
 		(pts
@@ -1696,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 116.84) (xy 115.57 116.84)
+			(xy 125.73 116.84) (xy 115.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1716,13 +2507,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 109.22) (xy 130.81 109.22)
+			(xy 137.16 88.9) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f03ca59-a41c-42c5-987d-71fea8537a18")
+		(uuid "86628473-fe13-4b13-8c4c-d7ed72fbad56")
 	)
 	(wire
 		(pts
@@ -1746,16 +2537,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 109.22) (xy 130.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93edd326-6a3e-4abc-893f-912c08e375a1")
-	)
-	(wire
-		(pts
 			(xy 173.99 125.73) (xy 173.99 130.81)
 		)
 		(stroke
@@ -1766,13 +2547,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 130.81 88.9)
+			(xy 137.16 106.68) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99186852-a373-4c9b-8b4f-9bfa1097b1e3")
+		(uuid "96a8b492-2b41-48fa-ac31-47cc4eeba944")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4e2cc0-3bf4-4c47-9e14-bce33543c665")
 	)
 	(wire
 		(pts
@@ -1806,13 +2597,43 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 124.46) (xy 143.51 130.81)
+			(xy 137.16 88.9) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dcf5fd-5000-4237-b00a-3871f5955106")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf2e1d2e-0813-4e07-8521-6bfe6ec7c319")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a9423-7b3e-4a5b-86e3-4083262c0aa3")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce103446-17ec-4f06-8187-da8e86d3938b")
 	)
 	(wire
 		(pts
@@ -1932,6 +2753,269 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "342ac375-a71f-4a3e-8701-8e0e9331e495")
+		(property "Reference" "R1"
+			(at 140.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 140.97 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03be9c11-d109-4192-9c0c-193ec4c1aeb8")
+		)
+		(pin "2"
+			(uuid "bec6945d-94b8-4263-8766-c31b5ff47f42")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_PMIC-Motor-Drivers-Controllers:L293D")
+		(at 205.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3738ddbd-39fc-48e0-9ee8-572a91f35aea")
+		(property "Reference" "U10"
+			(at 210.4741 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L293D"
+			(at 210.4741 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:DIP-16_W7.62mm"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC MTRDRV BIPLR 4.5-36V 16PWRDIP"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L293D"
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "PMIC - Motor Drivers, Controllers"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/L293D/497-2936-5-ND/634700"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "IC MTRDRV BIPLR 4.5-36V 16PWRDIP"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "ab730823-a2d9-46da-8423-19cbfaebeb09")
+		)
+		(pin "4"
+			(uuid "7a15e0d0-2517-4456-88a9-932410aee8e6")
+		)
+		(pin "12"
+			(uuid "6d54ceee-ab02-43fc-8f7a-962c7879e365")
+		)
+		(pin "14"
+			(uuid "fd0e4a68-b98d-4724-8d50-81c502241564")
+		)
+		(pin "6"
+			(uuid "e6d15076-e9e5-4ec7-bbe6-ab7bc4d1dca9")
+		)
+		(pin "10"
+			(uuid "86eaa8f5-2ad1-450d-abbc-d632f867c4c5")
+		)
+		(pin "5"
+			(uuid "5d5e418f-240c-4839-9ca0-ffe304530001")
+		)
+		(pin "16"
+			(uuid "f2eb9d7a-b712-4399-a881-cfb97edb1f6b")
+		)
+		(pin "1"
+			(uuid "5e015a93-51ca-4322-85ea-deeff65ea77c")
+		)
+		(pin "3"
+			(uuid "9c08a13e-2fb4-4032-b508-b434746dd978")
+		)
+		(pin "9"
+			(uuid "8600f168-728c-417a-aaec-a5ec60531c17")
+		)
+		(pin "11"
+			(uuid "7aaed83b-4b47-47c5-ac75-57beeb2d7d0d")
+		)
+		(pin "2"
+			(uuid "324d9314-6221-4638-bb68-f81fc43d93b8")
+		)
+		(pin "7"
+			(uuid "52f21291-1dc6-488e-9ec9-38374eaefd53")
+		)
+		(pin "8"
+			(uuid "abc30536-9447-4c56-b7ea-7e4b712a7b54")
+		)
+		(pin "13"
+			(uuid "7b2b06c4-0168-4b30-8e39-f6c839abd357")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 130.81 80.01 0)
 		(unit 1)
@@ -1999,16 +3083,16 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4401-AP")
-		(at 140.97 116.84 0)
+		(at 134.62 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4708b439-3717-4b6a-b22f-da334240dae0")
+		(uuid "4fc87e6d-daf8-4a80-b904-804779576fe6")
 		(property "Reference" "Q2"
-			(at 146.05 115.5699 0)
+			(at 139.7 100.3299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2017,7 +3101,7 @@
 			)
 		)
 		(property "Value" "2N4401-AP"
-			(at 146.05 118.1099 0)
+			(at 139.7 102.8699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2026,7 +3110,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
-			(at 146.05 111.76 0)
+			(at 139.7 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2036,7 +3120,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 146.05 109.22 0)
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2046,7 +3130,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 40V TO92"
-			(at 146.05 106.68 0)
+			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2056,7 +3140,7 @@
 			)
 		)
 		(property "MPN" "2N4401-AP"
-			(at 146.05 104.14 0)
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2066,7 +3150,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 146.05 101.6 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2076,7 +3160,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 146.05 99.06 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2086,7 +3170,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 146.05 96.52 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2096,7 +3180,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593"
-			(at 146.05 93.98 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2106,7 +3190,7 @@
 			)
 		)
 		(property "Description_1" "TRANS NPN 40V TO92"
-			(at 146.05 91.44 0)
+			(at 139.7 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2116,7 +3200,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 146.05 88.9 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2126,7 +3210,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 146.05 86.36 0)
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2136,13 +3220,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "16bb8bef-bab4-4480-a0cd-1cab2b88049a")
+			(uuid "c1bc61a3-0752-4177-bae4-5c35f52aa1e4")
 		)
 		(pin "2"
-			(uuid "768cba3b-6f57-434e-af6f-9cca099376b1")
+			(uuid "bc4813e4-d612-4219-bb9c-b7f100ad2fe0")
 		)
 		(pin "1"
-			(uuid "abb812d4-cf1a-46c3-bb7e-20ca348f2660")
+			(uuid "c98a322c-1e23-4c78-888b-c5df8322a9fd")
 		)
 		(instances
 			(project "Lab10"
@@ -2288,6 +3372,162 @@
 		)
 	)
 	(symbol
+		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4403-AP")
+		(at 134.62 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2fc1b9-7f41-4dea-b5ef-6748245b1341")
+		(property "Reference" "Q3"
+			(at 138.43 115.5699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N4403-AP"
+			(at 138.43 118.1099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS PNP 40V TO92"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N4403-AP"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Discrete Semiconductor Products"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Transistors - Bipolar (BJT) - Single"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4403-AP/2N4403-APCT-ND/950594"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TRANS PNP 40V TO92"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f12f3835-7dbf-4717-9d48-3e8df509fda9")
+		)
+		(pin "1"
+			(uuid "8c1c7e44-d5e2-4dba-a650-dec534b6101e")
+		)
+		(pin "3"
+			(uuid "72d46df7-9cc6-48e0-a224-46809069727f")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 116.84 90)
 		(unit 1)
@@ -2305,7 +3545,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 111.76 113.03 90)
 			(effects
 				(font
@@ -2486,76 +3726,6 @@
 			(project "Lab10"
 				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b24b8acc-e865-4d84-ab7e-7773acea4869")
-		(property "Reference" "R1"
-			(at 133.35 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 133.35 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.032 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aef7a07-4d9e-4d82-9500-3461f2d85953")
-		)
-		(pin "2"
-			(uuid "859b118f-cf57-4242-a51f-3a0f536c3640")
-		)
-		(instances
-			(project "Lab10"
-				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
-					(reference "R1")
 					(unit 1)
 				)
 			)
