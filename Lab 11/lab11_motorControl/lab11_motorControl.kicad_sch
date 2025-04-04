@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a010efed-9821-4af0-b24d-85bee303b04d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 81.28 60.96)
+		(size 29.21 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6aff88cc-3415-4e1a-aa6b-24debd933ffb")
+		(property "Sheetname" "Pt1_PWM"
+			(at 81.28 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pt1_PWM.kicad_sch"
+			(at 81.28 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 60.96)
+		(size 31.75 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfe5cd27-5e6e-40e6-9097-28550d4f32b7")
+		(property "Sheetname" "Pt2 Fet+Driver"
+			(at 118.11 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pt2.kicad_sch"
+			(at 118.11 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
