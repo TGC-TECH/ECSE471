@@ -44,6 +44,82 @@
 		)
 	)
 	(sheet
+		(at 121.92 97.79)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95ef5eee-833e-4c89-8ba9-1d8bf97897bd")
+		(property "Sheetname" "Pt6_ClosingTheLoop"
+			(at 121.92 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheetname Pt6_ClosingTheLoop.kicad_sch"
+			(at 121.92 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 93.98)
+		(size 22.86 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1101020-9f7e-44db-a990-1d8aaa84419f")
+		(property "Sheetname" "V_FrequencyToVoltage"
+			(at 87.63 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PartV.kicad_sch"
+			(at 87.63 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.11 60.96)
 		(size 31.75 26.67)
 		(fields_autoplaced yes)

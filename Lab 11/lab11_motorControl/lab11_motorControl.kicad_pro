@@ -393,6 +393,14 @@
     [
       "cfe5cd27-5e6e-40e6-9097-28550d4f32b7",
       "Pt2 Fet+Driver"
+    ],
+    [
+      "b1101020-9f7e-44db-a990-1d8aaa84419f",
+      "V_FrequencyToVoltage"
+    ],
+    [
+      "95ef5eee-833e-4c89-8ba9-1d8bf97897bd",
+      "Pt6_ClosingTheLoop"
     ]
   ],
   "text_variables": {}
