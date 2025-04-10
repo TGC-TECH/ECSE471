@@ -157,6 +157,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 184.15 90.17)
+		(size 25.4 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f79d4b11-37b6-4e61-9277-9be7b3b4090b")
+		(property "Sheetname" "SampleAndHold"
+			(at 184.15 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 184.15 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -2609,4 +2609,70 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef54d1d2-4682-4067-b45c-7f862b4a6b0c")
+		(property "Reference" "#PWR018"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d79a1d-84d4-48bb-b3d9-4c9cfab1111c")
+		)
+		(instances
+			(project "lab11_motorControl"
+				(path "/a010efed-9821-4af0-b24d-85bee303b04d/cfe5cd27-5e6e-40e6-9097-28550d4f32b7"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

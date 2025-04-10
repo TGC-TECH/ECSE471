@@ -1888,6 +1888,12 @@
 		(uuid "3299ff41-7893-4b91-97fe-4440df34a878")
 	)
 	(junction
+		(at 111.76 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3699eadc-6c9c-429a-acc3-9e6e34236d96")
+	)
+	(junction
 		(at 243.84 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1942,6 +1948,16 @@
 			(type default)
 		)
 		(uuid "080888b2-e3e6-483d-a53b-af78fa92fc10")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 66.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090e25ba-18a5-459d-81d8-4efc0c430a29")
 	)
 	(wire
 		(pts
@@ -2085,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 189.23 114.3)
+			(xy 143.51 114.3) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2182,6 +2198,16 @@
 			(type default)
 		)
 		(uuid "6b1d88ef-ce05-4625-b936-d080d121602c")
+	)
+	(wire
+		(pts
+			(xy 41.91 123.19) (xy 41.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d9674c-243e-4465-ae45-878d6eacfee7")
 	)
 	(wire
 		(pts
@@ -2305,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 114.3) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c982caa-e4c6-4ea7-bcba-88472beccd83")
+	)
+	(wire
+		(pts
 			(xy 156.21 128.27) (xy 147.32 128.27)
 		)
 		(stroke
@@ -2345,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 148.59) (xy 100.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a685e7d4-6d62-44d0-9fae-c7352313e768")
+	)
+	(wire
+		(pts
 			(xy 207.01 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -2372,6 +2418,26 @@
 			(type default)
 		)
 		(uuid "b0dd56ac-c8a0-4c70-993c-ae97d555ec5b")
+	)
+	(wire
+		(pts
+			(xy 66.04 146.05) (xy 80.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94dc753-9a24-4018-bb54-20404f4f9dca")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0a399d-f52a-43d0-8df2-3c1fed1ce041")
 	)
 	(wire
 		(pts
@@ -2435,6 +2501,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 151.13) (xy 71.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc224cc9-63eb-474b-a523-59354cff25aa")
+	)
+	(wire
+		(pts
+			(xy 80.01 151.13) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e3a6fa-94f6-4ccf-bd9e-c0def4001959")
+	)
+	(wire
+		(pts
 			(xy 48.26 68.58) (xy 50.8 68.58)
 		)
 		(stroke
@@ -2482,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "ecb2028d-6f84-4cdd-b44f-99423d490261")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 41.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddeb8b0-bd16-47c8-bc36-0118a6ca237f")
 	)
 	(wire
 		(pts
@@ -3685,7 +3781,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 36.83 180.34 0)
+		(at 111.76 152.4 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3694,7 +3790,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aca1a87-8483-4a64-b476-1ae6e8b320e4")
 		(property "Reference" "U4"
-			(at 36.83 170.18 0)
+			(at 111.76 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3798,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 36.83 172.72 0)
+			(at 111.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 177.8 0)
+			(at 110.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 38.1 175.26 0)
+			(at 113.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3824,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 36.83 180.34 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,6 +4185,110 @@
 				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/397f0bd2-43b5-4c41-bee7-f211e6e91d7a"
 					(reference "U4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 87.63 148.59 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94641bd7-e3c5-45e8-8201-d3536c6b7e1a")
+		(property "Reference" "U1"
+			(at 87.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "dc0fba80-4e63-47b0-9e0f-c6ac2e19115e")
+		)
+		(pin "7"
+			(uuid "5dc0636e-0f35-48d8-8c44-1e0c4d1b30e4")
+		)
+		(pin "14"
+			(uuid "53b48b09-3ee0-4177-8290-ba7e20803d8b")
+		)
+		(pin "2"
+			(uuid "7699673d-2cdf-4d94-ae44-c8d40c1cc14d")
+		)
+		(pin "6"
+			(uuid "d68a8e14-7752-4602-8be8-1a67c2f7abff")
+		)
+		(pin "12"
+			(uuid "a585b9bc-057d-4af4-a984-e17848b0b0cd")
+		)
+		(pin "10"
+			(uuid "812900ce-9b0d-4ed3-a1d7-6229d8e55ce2")
+		)
+		(pin "11"
+			(uuid "9da66cce-49e0-42e9-8087-a8fefc8fc533")
+		)
+		(pin "3"
+			(uuid "40505394-e892-4434-82b4-edebab6f980b")
+		)
+		(pin "9"
+			(uuid "c9bc5354-04d2-4b55-8c97-ee4e2bbfe3cf")
+		)
+		(pin "13"
+			(uuid "379c0358-29d1-406e-be2d-a68776723c4d")
+		)
+		(pin "5"
+			(uuid "0d9be939-910e-4ce2-b462-7ffe92cc1e93")
+		)
+		(pin "8"
+			(uuid "d826048b-5296-4dfb-8bff-3fe986ef6b9d")
+		)
+		(pin "1"
+			(uuid "c8ca6d5c-7ae5-4ea2-89e9-ed0beafdffc2")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/397f0bd2-43b5-4c41-bee7-f211e6e91d7a"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -4534,6 +4734,74 @@
 			(project "Lab10"
 				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/397f0bd2-43b5-4c41-bee7-f211e6e91d7a"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b494b734-3219-42b2-a4b2-b353267f7c4f")
+		(property "Reference" "C7"
+			(at 165.1 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 165.1 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f874903-9949-4330-acbe-9101ea612a86")
+		)
+		(pin "1"
+			(uuid "b72004d0-b403-4a04-af3f-d80595e93a40")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/397f0bd2-43b5-4c41-bee7-f211e6e91d7a"
+					(reference "C7")
 					(unit 1)
 				)
 			)

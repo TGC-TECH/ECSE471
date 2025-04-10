@@ -2365,7 +2365,7 @@
 		(at 168.91 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f7b14dc-2e43-4ecf-8eec-9211cc410263")
+		(uuid "b488fa60-798c-4917-9c06-8e634ea19ece")
 	)
 	(junction
 		(at 137.16 88.9)
@@ -2384,6 +2384,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc18c85c-304c-4223-a93e-3872197a41e7")
+	)
+	(wire
+		(pts
+			(xy 168.91 80.01) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bef628-bb4c-43bc-9e34-418682653801")
 	)
 	(wire
 		(pts
@@ -2477,6 +2487,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5413703d-e113-4c04-9871-5dee31354a41")
+	)
+	(wire
+		(pts
 			(xy 119.38 88.9) (xy 130.81 88.9)
 		)
 		(stroke
@@ -2487,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 88.9) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d44add-9175-4e42-bacc-c15a6bcff40e")
+	)
+	(wire
+		(pts
 			(xy 125.73 116.84) (xy 115.57 116.84)
 		)
 		(stroke
@@ -2494,16 +2524,6 @@
 			(type default)
 		)
 		(uuid "58168de8-a91e-4bd7-9cae-a37cfac2c3f3")
-	)
-	(wire
-		(pts
-			(xy 179.07 80.01) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d2a7804-138e-428a-9d63-adbc83cf60a9")
 	)
 	(wire
 		(pts
@@ -2524,16 +2544,6 @@
 			(type default)
 		)
 		(uuid "9015c1de-45b4-40c1-961b-d1cad179e0b4")
-	)
-	(wire
-		(pts
-			(xy 168.91 88.9) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930f1dea-5eed-4f2b-9cca-526c6c2733e5")
 	)
 	(wire
 		(pts
@@ -2664,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "f21bd13c-ceb8-4e94-a13a-6f7b613e40b2")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadff070-7206-4751-9842-6993663265c1")
 	)
 	(text "Vcc can vary between 16 and 28V \nVgs (max) is 20V so don't pull gate low to turn on \nPull to 12V that always hit our -4V (max) threshold voltage\n"
 		(exclude_from_sim no)
@@ -3942,6 +3962,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19c73d6-01de-4346-a113-c24eedb5c6cc")
+		(property "Reference" "#PWR053"
+			(at 168.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vcs"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8415ab-9de3-43b9-ab60-028298970573")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 95.25 0)
 		(unit 1)
@@ -4072,6 +4158,74 @@
 			(project "Lab10"
 				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d442ff-5a04-4e45-8003-dcb765395a01")
+		(property "Reference" "R27"
+			(at 173.99 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5"
+			(at 173.99 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91967390-c166-4b11-89e8-0cb872b1b3da")
+		)
+		(pin "1"
+			(uuid "b38a47be-0c83-4b75-a4f0-45d525af6db9")
+		)
+		(instances
+			(project "Lab10"
+				(path "/2b4b4048-8309-401d-ba07-3e19d984b427/21ff834f-d62b-4b0a-b36a-481c77b9ba45"
+					(reference "R27")
 					(unit 1)
 				)
 			)
