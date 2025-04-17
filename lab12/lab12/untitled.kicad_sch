@@ -577,6 +577,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1508,32 +1629,44 @@
 		)
 	)
 	(junction
-		(at 179.07 111.76)
+		(at 99.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02f1d4eb-cccf-4e1f-840c-5bddaa33ad3c")
+	)
+	(junction
+		(at 224.79 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "107a336f-1a01-4028-aa8c-00ec14f97431")
 	)
 	(junction
-		(at 68.58 95.25)
+		(at 93.98 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573516d7-588c-44d1-9030-af877cf05ef7")
+	)
+	(junction
+		(at 114.3 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d788fafe-7514-4523-8885-aa1fac6a6158")
 	)
 	(junction
-		(at 48.26 60.96)
+		(at 93.98 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8458f61-7282-41dd-99db-71ea89925a20")
 	)
 	(junction
-		(at 53.34 74.93)
+		(at 99.06 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95d7be7-5cf8-459f-904f-2fcee473da1b")
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 57.15 55.88)
+			(xy 93.98 76.2) (xy 102.87 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 111.76) (xy 99.06 111.76)
+			(xy 125.73 132.08) (xy 144.78 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 68.58 95.25)
+			(xy 114.3 132.08) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 113.03) (xy 140.97 114.3)
+			(xy 186.69 133.35) (xy 186.69 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 140.97 113.03)
+			(xy 170.18 133.35) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 48.26 55.88)
+			(xy 93.98 81.28) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 100.33) (xy 80.01 111.76)
+			(xy 125.73 120.65) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 95.25) (xy 72.39 95.25)
+			(xy 114.3 115.57) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 179.07 78.74)
+			(xy 224.79 109.22) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 124.46 90.17)
+			(xy 170.18 101.6) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 167.64 60.96)
+			(xy 213.36 116.84) (xy 213.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 48.26 60.96)
+			(xy 93.98 132.08) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 80.01 71.12)
+			(xy 115.57 91.44) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 48.26 60.96)
+			(xy 213.36 81.28) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.28) (xy 80.01 90.17)
+			(xy 125.73 101.6) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 78.74) (xy 186.69 78.74)
+			(xy 224.79 99.06) (xy 232.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 53.34 95.25)
+			(xy 99.06 95.25) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 80.01 71.12)
+			(xy 125.73 88.9) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 124.46 113.03)
+			(xy 170.18 120.65) (xy 170.18 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 69.85 55.88)
+			(xy 115.57 58.42) (xy 115.57 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 53.34 71.12)
+			(xy 105.41 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 101.6 74.93)
+			(xy 147.32 115.57) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 48.26 111.76)
+			(xy 99.06 132.08) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1896,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 53.34 74.93)
+			(xy 93.98 134.62) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff1000a-009d-4d82-8590-ee4a876a67e7")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 53.34 74.93)
+			(xy 147.32 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 104.14) (xy 179.07 111.76)
+			(xy 224.79 124.46) (xy 224.79 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 55.88) (xy 69.85 55.88)
+			(xy 113.03 76.2) (xy 115.57 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 179.07 111.76)
+			(xy 223.52 132.08) (xy 224.79 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +1955,7 @@
 		(uuid "fdb047b0-ea34-4fc7-99b2-0fc0b66adb38")
 	)
 	(label "DIR"
-		(at 140.97 113.03 0)
+		(at 186.69 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1824,7 +1967,7 @@
 		(uuid "122cde43-3ba4-4436-987c-704866f810ee")
 	)
 	(label "JogLeft"
-		(at 48.26 55.88 0)
+		(at 93.98 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1836,7 +1979,7 @@
 		(uuid "540ff932-734d-4b9d-a7b5-52e56f2b2846")
 	)
 	(label "DIR"
-		(at 186.69 78.74 0)
+		(at 232.41 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1848,7 +1991,7 @@
 		(uuid "57bde3ac-1e09-458a-8266-71120bcca843")
 	)
 	(label "JogRight"
-		(at 53.34 71.12 0)
+		(at 99.06 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +2003,7 @@
 		(uuid "b91846ae-f02b-46f3-bcca-f1ff2906d86a")
 	)
 	(label "PWM"
-		(at 99.06 111.76 0)
+		(at 144.78 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1873,7 +2016,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 80.01 81.28 0)
+		(at 125.73 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1882,7 +2025,7 @@
 		(fields_autoplaced yes)
 		(uuid "00a263c5-fd82-44c0-a286-d69735432d80")
 		(property "Reference" "#PWR015"
-			(at 80.01 85.09 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2034,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 80.01 76.2 0)
+			(at 125.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 81.28 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 81.28 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 81.28 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2082,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 60.96 111.76 0)
+		(at 106.68 132.08 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,7 +2091,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a77398f-b831-46eb-8980-7bdd3988a133")
 		(property "Reference" "U11"
-			(at 60.96 102.87 0)
+			(at 106.68 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2099,7 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 60.96 105.41 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 111.76 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 60.96 111.76 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 60.96 111.76 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2186,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 109.22 95.25 0)
+		(at 154.94 115.57 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2052,7 +2195,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cac4356-24f7-4050-a850-7b063e21e1ec")
 		(property "Reference" "U11"
-			(at 109.22 86.36 0)
+			(at 154.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2203,7 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 109.22 88.9 0)
+			(at 154.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 95.25 0)
+			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2220,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 109.22 95.25 0)
+			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2229,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 109.22 95.25 0)
+			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,46 +2238,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec0")
+			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec1")
 		)
 		(pin "8"
-			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379b9f")
+			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379ba0")
 		)
 		(pin "13"
-			(uuid "21d70857-7e2d-4c14-9495-0c95114e0772")
+			(uuid "21d70857-7e2d-4c14-9495-0c95114e0773")
 		)
 		(pin "6"
-			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52656")
+			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52657")
 		)
 		(pin "12"
-			(uuid "6df34dd0-5184-4cb1-9f25-e7785499162e")
+			(uuid "6df34dd0-5184-4cb1-9f25-e7785499162f")
 		)
 		(pin "5"
-			(uuid "692a3769-b44e-45d4-9301-45c00528e628")
+			(uuid "692a3769-b44e-45d4-9301-45c00528e629")
 		)
 		(pin "3"
-			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d08")
+			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d09")
 		)
 		(pin "4"
-			(uuid "7876176e-405c-430d-9b41-f236701e75fd")
+			(uuid "7876176e-405c-430d-9b41-f236701e75fe")
 		)
 		(pin "9"
-			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae881")
+			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae882")
 		)
 		(pin "11"
-			(uuid "d4372569-91f3-4097-a413-70e1a6eb0332")
+			(uuid "d4372569-91f3-4097-a413-70e1a6eb0333")
 		)
 		(pin "14"
-			(uuid "445607f7-46d3-476f-8246-e0495929a9d0")
+			(uuid "445607f7-46d3-476f-8246-e0495929a9d1")
 		)
 		(pin "10"
-			(uuid "55703378-9841-4b51-ac0f-992024554fd2")
+			(uuid "55703378-9841-4b51-ac0f-992024554fd3")
 		)
 		(pin "7"
-			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdc9")
+			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdca")
 		)
 		(pin "2"
-			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182344")
+			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182345")
 		)
 		(instances
 			(project "lab12"
@@ -2147,7 +2290,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 80.01 68.58 0)
+		(at 125.73 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2156,7 +2299,7 @@
 		(fields_autoplaced yes)
 		(uuid "3afa2e2b-6dd6-425a-925b-ca7243adb996")
 		(property "Reference" "#PWR026"
-			(at 80.01 72.39 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2308,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 80.01 63.5 0)
+			(at 125.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 68.58 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 68.58 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 68.58 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2356,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4403-AP")
-		(at 121.92 95.25 0)
+		(at 167.64 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2222,7 +2365,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f745bfd-885d-437d-9bed-b8953660ed2c")
 		(property "Reference" "Q2"
-			(at 125.73 93.9799 0)
+			(at 171.45 114.2999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2231,7 +2374,7 @@
 			)
 		)
 		(property "Value" "2N4403-AP"
-			(at 125.73 96.5199 0)
+			(at 171.45 116.8399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2240,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
-			(at 127 90.17 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2250,7 +2393,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
-			(at 127 87.63 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2260,7 +2403,7 @@
 			)
 		)
 		(property "Description" "TRANS PNP 40V TO92"
-			(at 127 85.09 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2270,7 +2413,7 @@
 			)
 		)
 		(property "MPN" "2N4403-AP"
-			(at 127 82.55 0)
+			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2280,7 +2423,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 127 80.01 0)
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2290,7 +2433,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 127 77.47 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2300,7 +2443,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
-			(at 127 74.93 0)
+			(at 172.72 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2310,7 +2453,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4403-AP/2N4403-APCT-ND/950594"
-			(at 127 72.39 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2320,7 +2463,7 @@
 			)
 		)
 		(property "Description_1" "TRANS PNP 40V TO92"
-			(at 127 69.85 0)
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2330,7 +2473,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 127 67.31 0)
+			(at 172.72 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2340,7 +2483,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 127 64.77 0)
+			(at 172.72 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2369,7 +2512,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 38.1 0)
+		(at 115.57 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2378,7 +2521,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b46ff77-fc97-47cd-bef3-f663f1a38b8f")
 		(property "Reference" "#PWR025"
-			(at 69.85 41.91 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2530,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 33.02 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 38.1 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 38.1 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 38.1 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,33 +2577,35 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:40106")
-		(at 60.96 95.25 0)
+		(lib_id "Device:R")
+		(at 93.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82dea46f-ee0d-45c9-8be9-5e3487c7195b")
-		(property "Reference" "U11"
-			(at 60.96 86.36 0)
+		(uuid "5d7339e4-e938-4e16-9b33-2a76ef4f34d9")
+		(property "Reference" "R39"
+			(at 96.52 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "40106"
-			(at 60.96 88.9 0)
+		(property "Value" "10k"
+			(at 96.52 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 95.25 0)
+			(at 92.202 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,8 +2613,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 60.96 95.25 0)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,8 +2622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 60.96 95.25 0)
+		(property "Description" "Resistor"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,46 +2632,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec0")
-		)
-		(pin "8"
-			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379b9f")
-		)
-		(pin "13"
-			(uuid "21d70857-7e2d-4c14-9495-0c95114e0772")
-		)
-		(pin "6"
-			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52656")
-		)
-		(pin "12"
-			(uuid "6df34dd0-5184-4cb1-9f25-e7785499162e")
-		)
-		(pin "5"
-			(uuid "692a3769-b44e-45d4-9301-45c00528e628")
-		)
-		(pin "3"
-			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d08")
-		)
-		(pin "4"
-			(uuid "7876176e-405c-430d-9b41-f236701e75fd")
-		)
-		(pin "9"
-			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae881")
-		)
-		(pin "11"
-			(uuid "d4372569-91f3-4097-a413-70e1a6eb0332")
-		)
-		(pin "14"
-			(uuid "445607f7-46d3-476f-8246-e0495929a9d0")
-		)
-		(pin "10"
-			(uuid "55703378-9841-4b51-ac0f-992024554fd2")
-		)
-		(pin "7"
-			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdc9")
+			(uuid "9489a655-f587-409b-bd4e-f6f6dddc900b")
 		)
 		(pin "2"
-			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182344")
+			(uuid "c2a37187-baec-4803-af9b-a3685ac8bfa5")
+		)
+		(instances
+			(project "lab12"
+				(path "/24380131-b978-4208-822a-17db8eecaedd/afa67b7a-ce01-4bcb-ad0b-6cc2e14a18ee"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 106.68 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82dea46f-ee0d-45c9-8be9-5e3487c7195b")
+		(property "Reference" "U11"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec2")
+		)
+		(pin "8"
+			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379ba1")
+		)
+		(pin "13"
+			(uuid "21d70857-7e2d-4c14-9495-0c95114e0774")
+		)
+		(pin "6"
+			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52658")
+		)
+		(pin "12"
+			(uuid "6df34dd0-5184-4cb1-9f25-e77854991630")
+		)
+		(pin "5"
+			(uuid "692a3769-b44e-45d4-9301-45c00528e62a")
+		)
+		(pin "3"
+			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d0a")
+		)
+		(pin "4"
+			(uuid "7876176e-405c-430d-9b41-f236701e75ff")
+		)
+		(pin "9"
+			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae883")
+		)
+		(pin "11"
+			(uuid "d4372569-91f3-4097-a413-70e1a6eb0334")
+		)
+		(pin "14"
+			(uuid "445607f7-46d3-476f-8246-e0495929a9d2")
+		)
+		(pin "10"
+			(uuid "55703378-9841-4b51-ac0f-992024554fd4")
+		)
+		(pin "7"
+			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdcb")
+		)
+		(pin "2"
+			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182346")
 		)
 		(instances
 			(project "lab12"
@@ -2538,8 +2751,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 99.06 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb87868-52aa-48d4-9df2-6a37b9780e7d")
+		(property "Reference" "R40"
+			(at 101.6 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda4aed9-3f37-461f-92ba-f0b67fe5fa36")
+		)
+		(pin "2"
+			(uuid "73e57428-ed43-4f6f-b3d4-0573c3e65a87")
+		)
+		(instances
+			(project "lab12"
+				(path "/24380131-b978-4208-822a-17db8eecaedd/afa67b7a-ce01-4bcb-ad0b-6cc2e14a18ee"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4401-AP")
-		(at 176.53 96.52 0)
+		(at 222.25 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2548,7 +2831,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e7180f8-e18d-4824-a1b1-c9a68cef2f17")
 		(property "Reference" "Q3"
-			(at 181.61 95.2499 0)
+			(at 227.33 115.5699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2557,7 +2840,7 @@
 			)
 		)
 		(property "Value" "2N4401-AP"
-			(at 181.61 97.7899 0)
+			(at 227.33 118.1099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2566,7 +2849,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
-			(at 181.61 91.44 0)
+			(at 227.33 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2576,7 +2859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 181.61 88.9 0)
+			(at 227.33 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2586,7 +2869,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 40V TO92"
-			(at 181.61 86.36 0)
+			(at 227.33 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2596,7 +2879,7 @@
 			)
 		)
 		(property "MPN" "2N4401-AP"
-			(at 181.61 83.82 0)
+			(at 227.33 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2606,7 +2889,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 181.61 81.28 0)
+			(at 227.33 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2616,7 +2899,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 181.61 78.74 0)
+			(at 227.33 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2626,7 +2909,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 181.61 76.2 0)
+			(at 227.33 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2636,7 +2919,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593"
-			(at 181.61 73.66 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2646,7 +2929,7 @@
 			)
 		)
 		(property "Description_1" "TRANS NPN 40V TO92"
-			(at 181.61 71.12 0)
+			(at 227.33 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2656,7 +2939,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 181.61 68.58 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2666,7 +2949,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 181.61 66.04 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2695,7 +2978,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 30.48 62.23 0)
+		(at 68.58 59.69 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2704,7 +2987,7 @@
 		(fields_autoplaced yes)
 		(uuid "afdb91f9-8db2-43d0-bf57-33e6cef4ede9")
 		(property "Reference" "U11"
-			(at 36.83 60.9599 0)
+			(at 74.93 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2996,7 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 36.83 63.4999 0)
+			(at 74.93 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +3005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 62.23 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +3014,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 30.48 62.23 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3023,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 30.48 62.23 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,46 +3032,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec0")
+			(uuid "eaa45625-f59c-4b6c-8844-c18fe5c99ec3")
 		)
 		(pin "8"
-			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379b9f")
+			(uuid "1dfb7acd-b354-4f94-bb0c-3190ab379ba2")
 		)
 		(pin "13"
-			(uuid "21d70857-7e2d-4c14-9495-0c95114e0772")
+			(uuid "21d70857-7e2d-4c14-9495-0c95114e0775")
 		)
 		(pin "6"
-			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52656")
+			(uuid "9a4969d3-0c69-4dc8-b6b6-03106ae52659")
 		)
 		(pin "12"
-			(uuid "6df34dd0-5184-4cb1-9f25-e7785499162e")
+			(uuid "6df34dd0-5184-4cb1-9f25-e77854991631")
 		)
 		(pin "5"
-			(uuid "692a3769-b44e-45d4-9301-45c00528e628")
+			(uuid "692a3769-b44e-45d4-9301-45c00528e62b")
 		)
 		(pin "3"
-			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d08")
+			(uuid "1a174281-fcf5-4359-ad39-14d3908f1d0b")
 		)
 		(pin "4"
-			(uuid "7876176e-405c-430d-9b41-f236701e75fd")
+			(uuid "7876176e-405c-430d-9b41-f236701e7600")
 		)
 		(pin "9"
-			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae881")
+			(uuid "119725f1-5ed9-4a16-b7f8-6419735ae884")
 		)
 		(pin "11"
-			(uuid "d4372569-91f3-4097-a413-70e1a6eb0332")
+			(uuid "d4372569-91f3-4097-a413-70e1a6eb0335")
 		)
 		(pin "14"
-			(uuid "445607f7-46d3-476f-8246-e0495929a9d0")
+			(uuid "445607f7-46d3-476f-8246-e0495929a9d3")
 		)
 		(pin "10"
-			(uuid "55703378-9841-4b51-ac0f-992024554fd2")
+			(uuid "55703378-9841-4b51-ac0f-992024554fd5")
 		)
 		(pin "7"
-			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdc9")
+			(uuid "9e898cd2-042a-4aa8-8c2d-0d1b08e6cdcc")
 		)
 		(pin "2"
-			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182344")
+			(uuid "8e666d8b-4b88-438b-bbbd-ad4790182347")
 		)
 		(instances
 			(project "lab12"
@@ -2801,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4403-AP")
-		(at 77.47 95.25 0)
+		(at 123.19 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2810,7 +3093,7 @@
 		(fields_autoplaced yes)
 		(uuid "b21014ab-95b8-4ed3-a10a-caec4a122de5")
 		(property "Reference" "Q4"
-			(at 81.28 93.9799 0)
+			(at 127 114.2999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2819,7 +3102,7 @@
 			)
 		)
 		(property "Value" "2N4403-AP"
-			(at 81.28 96.5199 0)
+			(at 127 116.8399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2828,7 +3111,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
-			(at 82.55 90.17 0)
+			(at 128.27 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2838,7 +3121,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
-			(at 82.55 87.63 0)
+			(at 128.27 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2848,7 +3131,7 @@
 			)
 		)
 		(property "Description" "TRANS PNP 40V TO92"
-			(at 82.55 85.09 0)
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2858,7 +3141,7 @@
 			)
 		)
 		(property "MPN" "2N4403-AP"
-			(at 82.55 82.55 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2868,7 +3151,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 82.55 80.01 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2878,7 +3161,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 82.55 77.47 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2888,7 +3171,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4403(TO-92).pdf"
-			(at 82.55 74.93 0)
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2898,7 +3181,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4403-AP/2N4403-APCT-ND/950594"
-			(at 82.55 72.39 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2908,7 +3191,7 @@
 			)
 		)
 		(property "Description_1" "TRANS PNP 40V TO92"
-			(at 82.55 69.85 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2918,7 +3201,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 82.55 67.31 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2928,7 +3211,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 82.55 64.77 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2957,7 +3240,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 62.23 55.88 0)
+		(at 107.95 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2966,7 +3249,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8e9da59-c28a-4832-ba85-6998fb282a7e")
 		(property "Reference" "SW2"
-			(at 62.23 48.26 0)
+			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3257,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 62.23 50.8 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +3265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 50.8 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 50.8 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3283,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 62.23 55.88 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 111.76 0)
+		(at 224.79 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3034,7 +3317,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdd2751f-d918-4697-a6be-039bc054d4a8")
 		(property "Reference" "#PWR024"
-			(at 179.07 118.11 0)
+			(at 224.79 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 116.84 0)
+			(at 224.79 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 111.76 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 111.76 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 111.76 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,8 +3373,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 99.06 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf151d7-0175-4031-9c13-367d21b1ae99")
+		(property "Reference" "#PWR050"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba3736cd-d5e3-4d0a-ba08-ebd64e8e1ce1")
+		)
+		(instances
+			(project "lab12"
+				(path "/24380131-b978-4208-822a-17db8eecaedd/afa67b7a-ce01-4bcb-ad0b-6cc2e14a18ee"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 64.77 71.12 0)
+		(at 110.49 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3100,7 +3449,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc621471-3e13-46b2-9f77-08ca50a40bf6")
 		(property "Reference" "SW1"
-			(at 64.77 63.5 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3457,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 64.77 66.04 0)
+			(at 110.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 66.04 0)
+			(at 110.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 66.04 0)
+			(at 110.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3483,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 64.77 71.12 0)
+			(at 110.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,17 +3507,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 124.46 81.28 0)
+		(lib_id "power:GND")
+		(at 93.98 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f169ebf9-1a84-44ca-aa90-8bf081a906e7")
-		(property "Reference" "#PWR016"
-			(at 124.46 85.09 0)
+		(uuid "e27faa9b-53ad-4d1a-a670-8c01ea18a3d9")
+		(property "Reference" "#PWR051"
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,8 +3525,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 124.46 76.2 0)
+		(property "Value" "GND"
+			(at 93.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 81.28 0)
+			(at 93.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3543,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 81.28 0)
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae00e523-8051-4901-88f1-eb7153fc51f8")
+		)
+		(instances
+			(project "lab12"
+				(path "/24380131-b978-4208-822a-17db8eecaedd/afa67b7a-ce01-4bcb-ad0b-6cc2e14a18ee"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f169ebf9-1a84-44ca-aa90-8bf081a906e7")
+		(property "Reference" "#PWR016"
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 81.28 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

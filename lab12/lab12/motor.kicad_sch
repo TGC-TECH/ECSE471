@@ -4002,19 +4002,19 @@
 			)
 		)
 		(pin "13"
-			(uuid "739ea923-f7ec-4307-bff2-4b47d7891576")
+			(uuid "739ea923-f7ec-4307-bff2-4b47d7891577")
 		)
 		(pin "10"
-			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833381")
+			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833382")
 		)
 		(pin "14"
-			(uuid "8409019e-57db-40a4-b2a8-5beee83310ed")
+			(uuid "8409019e-57db-40a4-b2a8-5beee83310ee")
 		)
 		(pin "8"
-			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08516")
+			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08517")
 		)
 		(pin "11"
-			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa991590f")
+			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa9915910")
 		)
 		(pin "4"
 			(uuid "96792619-df0e-458a-afbc-211726623d53")
@@ -4023,25 +4023,25 @@
 			(uuid "3cc27ec8-a937-4390-bd54-a3272faad505")
 		)
 		(pin "7"
-			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc71")
+			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc72")
 		)
 		(pin "2"
-			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d74e")
+			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d74f")
 		)
 		(pin "6"
-			(uuid "0548799b-2320-4446-b36e-02a02cddf59a")
+			(uuid "0548799b-2320-4446-b36e-02a02cddf59b")
 		)
 		(pin "1"
-			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc338")
+			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc339")
 		)
 		(pin "12"
-			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea86")
+			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea87")
 		)
 		(pin "9"
-			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c13")
+			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c14")
 		)
 		(pin "5"
-			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5636")
+			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5637")
 		)
 		(instances
 			(project "lab12"
@@ -4374,46 +4374,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "739ea923-f7ec-4307-bff2-4b47d7891576")
+			(uuid "739ea923-f7ec-4307-bff2-4b47d7891578")
 		)
 		(pin "10"
-			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833381")
+			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833383")
 		)
 		(pin "14"
-			(uuid "8409019e-57db-40a4-b2a8-5beee83310ed")
+			(uuid "8409019e-57db-40a4-b2a8-5beee83310ef")
 		)
 		(pin "8"
-			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08516")
+			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08518")
 		)
 		(pin "11"
-			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa991590f")
+			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa9915911")
 		)
 		(pin "4"
-			(uuid "97cfeea1-2563-400e-b2a8-9c6b5efecc96")
+			(uuid "97cfeea1-2563-400e-b2a8-9c6b5efecc97")
 		)
 		(pin "3"
-			(uuid "415b0b11-b7bd-4136-aa0e-85f3d15f542f")
+			(uuid "415b0b11-b7bd-4136-aa0e-85f3d15f5430")
 		)
 		(pin "7"
-			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc71")
+			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc73")
 		)
 		(pin "2"
-			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d74e")
+			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d750")
 		)
 		(pin "6"
-			(uuid "0548799b-2320-4446-b36e-02a02cddf59a")
+			(uuid "0548799b-2320-4446-b36e-02a02cddf59c")
 		)
 		(pin "1"
-			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc338")
+			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc33a")
 		)
 		(pin "12"
-			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea86")
+			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea88")
 		)
 		(pin "9"
-			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c13")
+			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c15")
 		)
 		(pin "5"
-			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5636")
+			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5638")
 		)
 		(instances
 			(project "lab12"
@@ -4686,7 +4686,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 242.57 80.01 0)
+		(at 45.72 109.22 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4695,7 +4695,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9e9d459-63d9-43eb-907f-197e940bb6bb")
 		(property "Reference" "U4"
-			(at 242.57 71.12 0)
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4703,7 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 242.57 73.66 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 80.01 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4720,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 242.57 80.01 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4729,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 242.57 80.01 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,46 +4738,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "739ea923-f7ec-4307-bff2-4b47d7891576")
+			(uuid "739ea923-f7ec-4307-bff2-4b47d7891579")
 		)
 		(pin "10"
-			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833381")
+			(uuid "0adbbd5d-65d1-4053-b3a0-eb9407833384")
 		)
 		(pin "14"
-			(uuid "8409019e-57db-40a4-b2a8-5beee83310ed")
+			(uuid "8409019e-57db-40a4-b2a8-5beee83310f0")
 		)
 		(pin "8"
-			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08516")
+			(uuid "28012bcd-1e2e-4ef4-8f3b-541c43d08519")
 		)
 		(pin "11"
-			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa991590f")
+			(uuid "16aa70fb-28b8-4c8f-981a-5d6fa9915912")
 		)
 		(pin "4"
-			(uuid "97cfeea1-2563-400e-b2a8-9c6b5efecc96")
+			(uuid "97cfeea1-2563-400e-b2a8-9c6b5efecc98")
 		)
 		(pin "3"
-			(uuid "415b0b11-b7bd-4136-aa0e-85f3d15f542f")
+			(uuid "415b0b11-b7bd-4136-aa0e-85f3d15f5431")
 		)
 		(pin "7"
-			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc71")
+			(uuid "ae1ae859-22a9-41e5-884d-0a331f21bc74")
 		)
 		(pin "2"
-			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d74e")
+			(uuid "f95d4c0d-5080-45bc-9c9f-481cecf6d751")
 		)
 		(pin "6"
-			(uuid "0548799b-2320-4446-b36e-02a02cddf59a")
+			(uuid "0548799b-2320-4446-b36e-02a02cddf59d")
 		)
 		(pin "1"
-			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc338")
+			(uuid "c585d23e-c1c8-4e07-93c5-43c6562fc33b")
 		)
 		(pin "12"
-			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea86")
+			(uuid "dd9ab00d-8f18-4809-9dda-0dfbc4eaea89")
 		)
 		(pin "9"
-			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c13")
+			(uuid "c94fc7ff-7e76-4496-97af-e02fd7643c16")
 		)
 		(pin "5"
-			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5636")
+			(uuid "34e313b2-58ae-4fdd-b1ad-ba7cdc5f5639")
 		)
 		(instances
 			(project "lab12"

@@ -184,9 +184,9 @@
 			)
 		)
 	)
-	(text "Lab 12: Laser Tracker"
+	(text "ECSE 471\nLab 12: Laser Tracker"
 		(exclude_from_sim no)
-		(at 141.478 48.768 0)
+		(at 164.338 77.978 0)
 		(effects
 			(font
 				(size 10 10)
@@ -198,7 +198,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_LASER_Large")
-		(at 45.72 48.26 0)
+		(at 99.06 68.58 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -207,7 +207,7 @@
 		(fields_autoplaced yes)
 		(uuid "da505e09-c29e-4b43-8fdd-bfb24d50dba7")
 		(property "Reference" "#SYM1"
-			(at 45.72 43.18 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +216,7 @@
 			)
 		)
 		(property "Value" "SYM_LASER_Large"
-			(at 45.72 54.991 0)
+			(at 99.06 75.311 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,7 +225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.466 52.705 0)
+			(at 98.806 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,7 +234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.482 53.34 0)
+			(at 99.822 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +243,7 @@
 			)
 		)
 		(property "Description" "Laser radiation warning symbol, large"
-			(at 45.72 48.26 0)
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +261,7 @@
 		)
 	)
 	(sheet
-		(at 171.45 97.79)
+		(at 149.86 101.6)
 		(size 29.21 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -273,7 +273,7 @@
 		)
 		(uuid "832bb272-af01-4810-b5c2-484955f97cb7")
 		(property "Sheetname" "StateLogic"
-			(at 171.45 97.0784 0)
+			(at 149.86 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			)
 		)
 		(property "Sheetfile" "StateLogic.kicad_sch"
-			(at 171.45 118.6946 0)
+			(at 149.86 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +299,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 92.71)
+		(at 63.5 100.33)
 		(size 29.21 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -311,7 +311,7 @@
 		)
 		(uuid "8d69c4e2-77ca-4f1e-81d0-a7671d702ba0")
 		(property "Sheetname" "MotorControl"
-			(at 67.31 91.9984 0)
+			(at 63.5 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +320,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 67.31 114.8846 0)
+			(at 63.5 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +337,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 138.43)
+		(at 201.93 95.25)
 		(size 24.13 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -349,7 +349,7 @@
 		)
 		(uuid "afa67b7a-ce01-4bcb-ad0b-6cc2e14a18ee")
 		(property "Sheetname" "jog"
-			(at 77.47 137.7184 0)
+			(at 201.93 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +358,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 77.47 164.4146 0)
+			(at 201.93 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +375,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 90.17)
+		(at 106.68 97.79)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -387,7 +387,7 @@
 		)
 		(uuid "d7486aa4-6447-40fe-bd60-f0238e2f4664")
 		(property "Sheetname" "Laser_signal"
-			(at 110.49 89.4584 0)
+			(at 106.68 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +396,7 @@
 			)
 		)
 		(property "Sheetfile" "Laser_signal.kicad_sch"
-			(at 110.49 116.1546 0)
+			(at 106.68 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
