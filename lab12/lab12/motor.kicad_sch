@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "f4a6a350-4560-4782-98c8-f2e605e60d8e")
 	(paper "A4")
+	(title_block
+		(company "CWRU")
+		(comment 1 "Drawn by: Toby Cowles")
+	)
 	(lib_symbols
 		(symbol "4xxx:40106"
 			(pin_names

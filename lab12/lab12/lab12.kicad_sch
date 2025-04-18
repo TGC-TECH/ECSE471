@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "24380131-b978-4208-822a-17db8eecaedd")
 	(paper "A4")
+	(title_block
+		(company "CWRU")
+		(comment 1 "Drawn by: Toby Cowles")
+	)
 	(lib_symbols
 		(symbol "Graphic:SYM_LASER_Large"
 			(exclude_from_sim no)
