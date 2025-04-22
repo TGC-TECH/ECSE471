@@ -3,6 +3,8 @@
 #define BUTTON_PIN     2
 #define TRIAC_PIN      3
 #define ZERO_CROSS_PIN 4
+#define BUZZER_PIN 16
+
 
 // 7-Segment GPIO pins (A–G)
 const uint8_t segmentPins[7] = {5, 6, 7, 8, 9, 10, 11};
@@ -63,6 +65,7 @@ void fireTriac() {
 
 void onZeroCross() {
   zeroCross = true;
+  Serial.println("zerocross");
 }
 
 void setup() {
@@ -71,6 +74,10 @@ void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   pinMode(TRIAC_PIN, OUTPUT);
   pinMode(ZERO_CROSS_PIN, INPUT);
+
+  pinMode(BUZZER_PIN, OUTPUT);
+  digitalWrite(BUZZER_PIN, LOW); // Make sure it's off initially
+
 
   for (int i = 0; i < 7; i++) {
     pinMode(segmentPins[i], OUTPUT);
@@ -82,6 +89,16 @@ void setup() {
 
   showTemp(0);
 }
+
+void beepBuzzer(int times, int duration = 100, int pause = 100) {
+  for (int i = 0; i < times; i++) {
+    digitalWrite(BUZZER_PIN, HIGH);
+    delay(duration);
+    digitalWrite(BUZZER_PIN, LOW);
+    delay(pause);
+  }
+}
+
 
 
 
@@ -101,15 +118,22 @@ void loop() {
     buttonPressed = false;
 
     if (pressDuration < LONG_PRESS_DURATION) {
-      // Short press: Change temp
+      // Short press: Change temp even during heating
+      temp++;
+      if (temp > 9) temp = 1;
+
+      displayStartTime = millis();
+      showTemp(temp);
+
+      // If we’re not heating, show it briefly
       if (state != HEATING) {
-        temp++;
-        if (temp > 9) temp = 1;
-        Serial.println(temp);
-        displayStartTime = millis();
         state = SET_TEMP;
-        showTemp(temp);
+      } else {
+        // If we ARE heating, just apply new setting
+        Serial.print("Temp changed during heating. New temp: ");
+        Serial.println(temp);
       }
+
     } else {
       // Long press: toggle heating
       if (state == HEATING) {
@@ -135,7 +159,7 @@ void loop() {
     fireTriac();
   }
 
-  // Auto-clear temp display
+  // Auto-clear display if in SET_TEMP mode
   if (state == SET_TEMP && millis() - displayStartTime > DISPLAY_TIME) {
     showTemp(0);
     state = IDLE;
@@ -144,7 +168,9 @@ void loop() {
   // Heating timeout
   if (state == HEATING && millis() - heatingStartTime > HEATING_TIMEOUT) {
     Serial.println("Heating timed out");
+    beepBuzzer(3);
     state = IDLE;
     showTemp(0);
   }
 }
+
