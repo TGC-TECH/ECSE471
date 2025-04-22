@@ -1,2 +1,2 @@
 # ECSE471
-Circuits to ECSE 471
+Applied Circuit Design ECSE 471
