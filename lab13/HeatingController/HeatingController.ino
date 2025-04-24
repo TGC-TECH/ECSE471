@@ -1,3 +1,4 @@
+//ECSE 471 Lab 13 Heating Control: T.Cowles 
 #include <Arduino.h>
 
 #define BUTTON_PIN     2
@@ -40,7 +41,7 @@ unsigned long heatingStartTime = 0;
 bool buttonPressed = false;
 
 // Duty cycles for temp settings 1–9 (%)
-uint8_t dutyCycle[10] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90};
+uint8_t dutyCycle[10] = {0, 15, 20, 30, 40, 50, 60, 70, 80, 90};
 
 void showTemp(int t) {
   if (t < 0 || t > 9) return;
@@ -76,7 +77,7 @@ void setup() {
   pinMode(ZERO_CROSS_PIN, INPUT);
 
   pinMode(BUZZER_PIN, OUTPUT);
-  digitalWrite(BUZZER_PIN, LOW); // Make sure it's off initially
+  digitalWrite(BUZZER_PIN, LOW); 
 
 
   for (int i = 0; i < 7; i++) {
@@ -92,9 +93,9 @@ void setup() {
 
 void beepBuzzer(int times, int duration = 100, int pause = 100) {
   for (int i = 0; i < times; i++) {
-    digitalWrite(BUZZER_PIN, HIGH);
+    tone(BUZZER_PIN, 4000);      
     delay(duration);
-    digitalWrite(BUZZER_PIN, LOW);
+    noTone(BUZZER_PIN);
     delay(pause);
   }
 }
