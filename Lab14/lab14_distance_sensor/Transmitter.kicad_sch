@@ -2,8 +2,14 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "827b1050-52ca-47ce-b17a-59d97f6d9574")
+	(uuid "12407090-dddf-4277-8048-3a4b12cfb676")
 	(paper "A4")
+	(title_block
+		(title "ECSE 471 Lab 14")
+		(date "2025-04-24")
+		(company "CWRU")
+		(comment 1 "Drawn By T.Cowles")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

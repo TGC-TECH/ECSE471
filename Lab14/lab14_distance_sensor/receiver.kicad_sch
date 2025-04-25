@@ -2,8 +2,14 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "c5b40d91-3303-4ec3-afc7-ccaf5706d0e3")
+	(uuid "06ab437a-e876-47d1-b813-d4ba8405e68d")
 	(paper "A4")
+	(title_block
+		(title "ECSE 471 Lab 14")
+		(date "2025-04-24")
+		(company "CWRU")
+		(comment 1 "Drawn By T.Cowles")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324"
 			(pin_names
@@ -385,6 +391,1101 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Analog_Switch:CD4066BE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CD4066BE"
+				(at 7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "analog switch selector multiplexer spst mux amux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD4066BE_1_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BE_2_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BE_3_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BE_4_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD4066BE_5_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -964,14 +2065,14 @@
 		)
 	)
 	(junction
-		(at 182.88 44.45)
+		(at 189.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b4800a5-b966-4443-8501-da7f9dc95fb5")
 	)
 	(wire
 		(pts
-			(xy 198.12 63.5) (xy 198.12 52.07)
+			(xy 204.47 96.52) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 198.12 63.5)
+			(xy 189.23 96.52) (xy 204.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 44.45) (xy 186.69 44.45)
+			(xy 189.23 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69) (xy 182.88 63.5)
+			(xy 189.23 92.71) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1010,8 +2111,112 @@
 		(uuid "d5d39d62-0bde-4c07-95dc-f5711d9f643c")
 	)
 	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 138.43 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "023ab5f7-7b73-487d-97ea-784977e7f50b")
+		(property "Reference" "U5"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "70e4f5c9-ef3d-4e46-ad0c-cc5c0d7f608c")
+		)
+		(pin "5"
+			(uuid "1f9f696a-8bb3-413b-920d-aefae685276a")
+		)
+		(pin "14"
+			(uuid "07dfc5e4-118f-4c1c-9e28-5a167da1c435")
+		)
+		(pin "7"
+			(uuid "6c81871f-acbb-408c-b065-5a1c93d1fa4f")
+		)
+		(pin "12"
+			(uuid "d93ffbe8-ac83-41aa-bfd7-f1f39e6b55e1")
+		)
+		(pin "13"
+			(uuid "6a1dd43d-f8e9-4dfe-8d24-62f451799fe6")
+		)
+		(pin "1"
+			(uuid "cac16cf4-a491-4f3e-b4b7-91e37e45e8d0")
+		)
+		(pin "4"
+			(uuid "956cf8d9-0744-4c9a-91d6-0b218600a8c3")
+		)
+		(pin "9"
+			(uuid "140495cc-8e80-4504-83a9-52f9a05d500f")
+		)
+		(pin "10"
+			(uuid "18d45a93-2d18-4ba4-89c6-a43b18d2d135")
+		)
+		(pin "11"
+			(uuid "8ec515cf-ef61-4737-b704-1cc636a91380")
+		)
+		(pin "2"
+			(uuid "ba6339b5-b683-4b8c-b612-f6eb52e815f7")
+		)
+		(pin "3"
+			(uuid "33905e69-9e99-458c-99e5-f3cd895ce5f9")
+		)
+		(pin "6"
+			(uuid "4184f293-7aad-4395-8cc4-89f709a8ef8f")
+		)
+		(instances
+			(project "lab14_distance_sensor"
+				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 92.71 71.12 0)
+		(at 59.69 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1020,7 +2225,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a3df0c4-5193-4e65-b640-1bdd79078a14")
 		(property "Reference" "U4"
-			(at 92.71 60.96 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +2233,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 92.71 63.5 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +2241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 68.58 0)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +2250,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 93.98 66.04 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +2259,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 92.71 71.12 0)
+			(at 59.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +2320,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 182.88 48.26 90)
+		(at 189.23 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1124,7 +2329,7 @@
 		(fields_autoplaced yes)
 		(uuid "486c93cb-9b00-4620-9bbd-1667a26590e2")
 		(property "Reference" "D2"
-			(at 180.34 49.5301 90)
+			(at 186.69 82.5501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +2338,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 46.9901 90)
+			(at 186.69 80.0101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +2347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 48.26 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +2356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 48.26 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +2365,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 182.88 48.26 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +2374,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 182.88 48.26 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +2383,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 48.26 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +2512,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 68.58 71.12 0)
+		(at 60.96 39.37 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1316,7 +2521,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f676cd2-85b3-4c78-8653-98470d481bf9")
 		(property "Reference" "U4"
-			(at 67.31 69.8499 0)
+			(at 59.69 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +2530,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 67.31 72.3899 0)
+			(at 59.69 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 68.58 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 69.85 66.04 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 68.58 71.12 0)
+			(at 60.96 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,8 +2617,288 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 138.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85613c4f-3a48-436c-a7d0-c190a9f8f138")
+		(property "Reference" "U5"
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 138.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "70e4f5c9-ef3d-4e46-ad0c-cc5c0d7f608c")
+		)
+		(pin "5"
+			(uuid "1f9f696a-8bb3-413b-920d-aefae685276a")
+		)
+		(pin "14"
+			(uuid "07dfc5e4-118f-4c1c-9e28-5a167da1c435")
+		)
+		(pin "7"
+			(uuid "6c81871f-acbb-408c-b065-5a1c93d1fa4f")
+		)
+		(pin "12"
+			(uuid "d93ffbe8-ac83-41aa-bfd7-f1f39e6b55e1")
+		)
+		(pin "13"
+			(uuid "6a1dd43d-f8e9-4dfe-8d24-62f451799fe6")
+		)
+		(pin "1"
+			(uuid "cac16cf4-a491-4f3e-b4b7-91e37e45e8d0")
+		)
+		(pin "4"
+			(uuid "956cf8d9-0744-4c9a-91d6-0b218600a8c3")
+		)
+		(pin "9"
+			(uuid "140495cc-8e80-4504-83a9-52f9a05d500f")
+		)
+		(pin "10"
+			(uuid "18d45a93-2d18-4ba4-89c6-a43b18d2d135")
+		)
+		(pin "11"
+			(uuid "8ec515cf-ef61-4737-b704-1cc636a91380")
+		)
+		(pin "2"
+			(uuid "ba6339b5-b683-4b8c-b612-f6eb52e815f7")
+		)
+		(pin "3"
+			(uuid "33905e69-9e99-458c-99e5-f3cd895ce5f9")
+		)
+		(pin "6"
+			(uuid "4184f293-7aad-4395-8cc4-89f709a8ef8f")
+		)
+		(instances
+			(project "lab14_distance_sensor"
+				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9008b900-822b-49f8-bf55-425a4e60c7e3")
+		(property "Reference" "C4"
+			(at 171.45 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 171.45 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.6052 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98610b4-7b83-4718-9cc8-cb743a163ec0")
+		)
+		(pin "2"
+			(uuid "2a338a3a-2574-421c-946d-d650ed4b7db6")
+		)
+		(instances
+			(project "lab14_distance_sensor"
+				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 31.75 39.37 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad90e74d-9c0b-4751-98b3-ae69a3266b57")
+		(property "Reference" "U5"
+			(at 35.56 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 35.56 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "70e4f5c9-ef3d-4e46-ad0c-cc5c0d7f608c")
+		)
+		(pin "5"
+			(uuid "1f9f696a-8bb3-413b-920d-aefae685276a")
+		)
+		(pin "14"
+			(uuid "07dfc5e4-118f-4c1c-9e28-5a167da1c435")
+		)
+		(pin "7"
+			(uuid "6c81871f-acbb-408c-b065-5a1c93d1fa4f")
+		)
+		(pin "12"
+			(uuid "d93ffbe8-ac83-41aa-bfd7-f1f39e6b55e1")
+		)
+		(pin "13"
+			(uuid "6a1dd43d-f8e9-4dfe-8d24-62f451799fe6")
+		)
+		(pin "1"
+			(uuid "cac16cf4-a491-4f3e-b4b7-91e37e45e8d0")
+		)
+		(pin "4"
+			(uuid "956cf8d9-0744-4c9a-91d6-0b218600a8c3")
+		)
+		(pin "9"
+			(uuid "140495cc-8e80-4504-83a9-52f9a05d500f")
+		)
+		(pin "10"
+			(uuid "18d45a93-2d18-4ba4-89c6-a43b18d2d135")
+		)
+		(pin "11"
+			(uuid "8ec515cf-ef61-4737-b704-1cc636a91380")
+		)
+		(pin "2"
+			(uuid "ba6339b5-b683-4b8c-b612-f6eb52e815f7")
+		)
+		(pin "3"
+			(uuid "33905e69-9e99-458c-99e5-f3cd895ce5f9")
+		)
+		(pin "6"
+			(uuid "4184f293-7aad-4395-8cc4-89f709a8ef8f")
+		)
+		(instances
+			(project "lab14_distance_sensor"
+				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N4401-AP")
-		(at 195.58 44.45 0)
+		(at 201.93 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +2907,7 @@
 		(fields_autoplaced yes)
 		(uuid "b66fc148-1f1b-4583-9613-19ae0ddb2b0b")
 		(property "Reference" "Q1"
-			(at 200.66 43.1799 0)
+			(at 207.01 76.1999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1431,7 +2916,7 @@
 			)
 		)
 		(property "Value" "2N4401-AP"
-			(at 200.66 45.7199 0)
+			(at 207.01 78.7399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1440,7 +2925,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3_Formed_Leads"
-			(at 200.66 39.37 0)
+			(at 207.01 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1450,7 +2935,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 200.66 36.83 0)
+			(at 207.01 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1460,7 +2945,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 40V TO92"
-			(at 200.66 34.29 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1470,7 +2955,7 @@
 			)
 		)
 		(property "MPN" "2N4401-AP"
-			(at 200.66 31.75 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1480,7 +2965,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 200.66 29.21 0)
+			(at 207.01 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1490,7 +2975,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 200.66 26.67 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1500,7 +2985,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf"
-			(at 200.66 24.13 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1510,7 +2995,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593"
-			(at 200.66 21.59 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1520,7 +3005,7 @@
 			)
 		)
 		(property "Description_1" "TRANS NPN 40V TO92"
-			(at 200.66 19.05 0)
+			(at 207.01 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1530,7 +3015,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 200.66 16.51 0)
+			(at 207.01 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1540,7 +3025,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 200.66 13.97 0)
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1568,42 +3053,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM324")
-		(at 71.12 130.81 0)
-		(unit 3)
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 138.43 73.66 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca4d3da6-e512-42a1-b486-8f62054dc007")
-		(property "Reference" "U4"
-			(at 71.12 120.65 0)
+		(uuid "dd1de958-d39f-495f-80e3-4da7cebd59ef")
+		(property "Reference" "U5"
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM324"
-			(at 71.12 123.19 0)
+		(property "Value" "CD4066BE"
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 72.39 125.73 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,8 +3087,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 71.12 130.81 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,59 +3106,163 @@
 			)
 		)
 		(pin "8"
-			(uuid "d36a41c2-5da8-4359-adac-9d164278676b")
-		)
-		(pin "14"
-			(uuid "8b45850a-3545-4c7a-8938-a4709ceba837")
-		)
-		(pin "11"
-			(uuid "4c27b63e-d27b-4369-b834-160d2c123b6b")
-		)
-		(pin "13"
-			(uuid "d3d67f33-6712-4cbe-97f6-1ef9804159e3")
-		)
-		(pin "2"
-			(uuid "a32509b1-3f47-4f6f-8805-e9b17f51369b")
-		)
-		(pin "7"
-			(uuid "84729c1c-94a5-4829-a369-54874dff4786")
+			(uuid "70e4f5c9-ef3d-4e46-ad0c-cc5c0d7f608c")
 		)
 		(pin "5"
-			(uuid "fd81e5d2-aee8-4c60-b98f-b907d5be0c04")
+			(uuid "1f9f696a-8bb3-413b-920d-aefae685276a")
 		)
-		(pin "6"
-			(uuid "afcf6075-be89-4e5d-b6a8-fb6ecba8d3c9")
+		(pin "14"
+			(uuid "07dfc5e4-118f-4c1c-9e28-5a167da1c435")
 		)
-		(pin "10"
-			(uuid "44fff3af-d797-4f07-b5d8-72333a88ddbf")
-		)
-		(pin "1"
-			(uuid "e77bd009-198a-4b1e-9a17-adba23b0045e")
-		)
-		(pin "9"
-			(uuid "29b22a32-8a19-48c7-a62a-f16dff3376e5")
-		)
-		(pin "4"
-			(uuid "61ba2918-7e25-49ec-bd31-8f05b802460d")
+		(pin "7"
+			(uuid "6c81871f-acbb-408c-b065-5a1c93d1fa4f")
 		)
 		(pin "12"
-			(uuid "7924c6c8-745b-4084-8d5d-8c658a9c2296")
+			(uuid "d93ffbe8-ac83-41aa-bfd7-f1f39e6b55e1")
+		)
+		(pin "13"
+			(uuid "6a1dd43d-f8e9-4dfe-8d24-62f451799fe6")
+		)
+		(pin "1"
+			(uuid "cac16cf4-a491-4f3e-b4b7-91e37e45e8d0")
+		)
+		(pin "4"
+			(uuid "956cf8d9-0744-4c9a-91d6-0b218600a8c3")
+		)
+		(pin "9"
+			(uuid "140495cc-8e80-4504-83a9-52f9a05d500f")
+		)
+		(pin "10"
+			(uuid "18d45a93-2d18-4ba4-89c6-a43b18d2d135")
+		)
+		(pin "11"
+			(uuid "8ec515cf-ef61-4737-b704-1cc636a91380")
+		)
+		(pin "2"
+			(uuid "ba6339b5-b683-4b8c-b612-f6eb52e815f7")
 		)
 		(pin "3"
-			(uuid "dae26aaa-b7c4-4b64-86d4-1190d209931f")
+			(uuid "33905e69-9e99-458c-99e5-f3cd895ce5f9")
+		)
+		(pin "6"
+			(uuid "4184f293-7aad-4395-8cc4-89f709a8ef8f")
 		)
 		(instances
 			(project "lab14_distance_sensor"
 				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
-					(reference "U4")
-					(unit 3)
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 139.7 119.38 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e40420-0a6e-4e64-ac0d-433e866aaf4b")
+		(property "Reference" "U5"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "70e4f5c9-ef3d-4e46-ad0c-cc5c0d7f608c")
+		)
+		(pin "5"
+			(uuid "1f9f696a-8bb3-413b-920d-aefae685276a")
+		)
+		(pin "14"
+			(uuid "07dfc5e4-118f-4c1c-9e28-5a167da1c435")
+		)
+		(pin "7"
+			(uuid "6c81871f-acbb-408c-b065-5a1c93d1fa4f")
+		)
+		(pin "12"
+			(uuid "d93ffbe8-ac83-41aa-bfd7-f1f39e6b55e1")
+		)
+		(pin "13"
+			(uuid "6a1dd43d-f8e9-4dfe-8d24-62f451799fe6")
+		)
+		(pin "1"
+			(uuid "cac16cf4-a491-4f3e-b4b7-91e37e45e8d0")
+		)
+		(pin "4"
+			(uuid "956cf8d9-0744-4c9a-91d6-0b218600a8c3")
+		)
+		(pin "9"
+			(uuid "140495cc-8e80-4504-83a9-52f9a05d500f")
+		)
+		(pin "10"
+			(uuid "18d45a93-2d18-4ba4-89c6-a43b18d2d135")
+		)
+		(pin "11"
+			(uuid "8ec515cf-ef61-4737-b704-1cc636a91380")
+		)
+		(pin "2"
+			(uuid "ba6339b5-b683-4b8c-b612-f6eb52e815f7")
+		)
+		(pin "3"
+			(uuid "33905e69-9e99-458c-99e5-f3cd895ce5f9")
+		)
+		(pin "6"
+			(uuid "4184f293-7aad-4395-8cc4-89f709a8ef8f")
+		)
+		(instances
+			(project "lab14_distance_sensor"
+				(path "/dc193204-f06f-4bda-a794-1fc81970e56e/192509eb-f1fc-4099-940d-d2c9e6a8df23"
+					(reference "U5")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 40.64 180)
+		(at 189.23 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1682,7 +3271,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec8fd9a5-769c-473b-bb3d-48a5c8469fb1")
 		(property "Reference" "R3"
-			(at 185.42 39.3699 0)
+			(at 191.77 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +3280,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 185.42 41.9099 0)
+			(at 191.77 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +3289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.658 40.64 90)
+			(at 191.008 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +3298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 40.64 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +3307,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 40.64 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +3332,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 182.88 55.88 90)
+		(at 189.23 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1752,7 +3341,7 @@
 		(fields_autoplaced yes)
 		(uuid "f474b0be-2c06-47e5-9c8f-a2b34afb0ca1")
 		(property "Reference" "D1"
-			(at 180.34 57.1501 90)
+			(at 186.69 90.1701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +3350,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 180.34 54.6101 90)
+			(at 186.69 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +3359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 55.88 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +3368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 55.88 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +3377,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 182.88 55.88 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +3386,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 182.88 55.88 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +3395,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 55.88 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "dc193204-f06f-4bda-a794-1fc81970e56e")
 	(paper "A4")
+	(title_block
+		(title "ECSE 471 Lab 14")
+		(date "2025-04-24")
+		(company "CWRU")
+		(comment 1 "Drawn By T.Cowles")
+	)
 	(lib_symbols)
 	(text "ECSE 471: Lab 14 \nUltrasonic Distance Sensor "
 		(exclude_from_sim no)
