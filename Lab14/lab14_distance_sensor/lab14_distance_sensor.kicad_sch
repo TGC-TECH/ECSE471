@@ -5,6 +5,18 @@
 	(uuid "dc193204-f06f-4bda-a794-1fc81970e56e")
 	(paper "A4")
 	(lib_symbols)
+	(text "ECSE 471: Lab 14 \nUltrasonic Distance Sensor "
+		(exclude_from_sim no)
+		(at 153.416 43.942 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2)
+				(bold yes)
+			)
+		)
+		(uuid "a7e0e189-0b6f-4f6d-bc37-0239e5a39ef5")
+	)
 	(sheet
 		(at 127 93.98)
 		(size 17.78 17.78)
